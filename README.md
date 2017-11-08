@@ -1,0 +1,2 @@
+# odszkodowania
+GitHub Pages
