@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 101,
+    "uniqCompNum": 103,
     "versionPublish": "4.7.0",
     "theme": {
       "name": "mobirise4",
@@ -94,18 +94,29 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#706a6a"
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-figure": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "text-align": "left"
             }
           },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Strefa Zdrowia&nbsp;<br>to studio treningu personalnego wykorzystujące metodę elektrostymulacji mięśni - w skrócie EMS</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Strefa Zdrowia jest odpowiedzią na współczesne oczekiwania, czyli bycie w dobrej formie fizycznej przy maksymalnej oszczędności czasu. Strefa Zdrowia to idealny kompromis pomiędzy aktywnością sportową, a wyzwaniami dnia codziennego. Wyróżnia nas indywidualne podejście do każdego klienta. W zależności od Twojego poziomu formy oraz indywidualnych celów trener dopasuje idealny plan treningowy dla Ciebie.<br>U nas każdy klient może poczuć się wyjątkowo. Z nami trening stanie się przyjemnym doświadczeniem i pozwoli cieszyć się dużo lepszymi efektami niż po tradycyjnych ćwiczeniach na siłowni. Strefa Zdrowia to trening personalny XXI wieku.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">DOWIEDZ SIĘ WIĘCEJ</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qOJVE8npPd",
-          "_anchor": "content4-2i",
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Wielkość\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"70\">\n      <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/ems-szybkie-i-zdrowe-rezultaty-wicze-600x441.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Strefa Zdrowia \n<br>to studio treningu personalnego wykorzystujące metodę elektrostymulacji mięśni - w skrócie EMS</b><br>Strefa Zdrowia jest odpowiedzią na współczesne oczekiwania, czyli bycie w dobrej formie fizycznej przy maksymalnej oszczędności czasu. Strefa Zdrowia to idealny kompromis pomiędzy aktywnością sportową, a wyzwaniami dnia codziennego. Wyróżnia nas indywidualne podejście do każdego klienta. W zależności od Twojego poziomu formy oraz indywidualnych celów trener dopasuje idealny plan treningowy dla Ciebie.\n<br>U nas każdy klient może poczuć się wyjątkowo. Z nami trening stanie się przyjemnym doświadczeniem i pozwoli cieszyć się dużo lepszymi efektami niż po tradycyjnych ćwiczeniach na siłowni. Strefa Zdrowia to trening personalny XXI wieku.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qPcHP7fuCY",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content6-2u"
         },
         {
           "_styles": {
@@ -1187,11 +1198,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Elektrostymulacja i aktywacja mięśni!\n<div>\n</div><div>Jak powszechnie wiadomo organizm człowieka to wielka i skomplikowana maszyna, która działa dzięki prądowi elektrycznemu. Aby uruchomić ten czy inny mięsień naszego ciała, mózg musi wysłać do mięśni sygnał, jest to nic innego jak impuls elektryczny, który w ułamku sekundy dociera do mięśni uruchamiając je w zaplanowanej sekwencji, możemy na przykład opuścić lub podnieść rękę.\n</div><div>\n</div><div>Technologia elektrostymulacji mięśni EMS za pomocą elektrod rozmieszczonych na ciele wysyła do mięśni sygnały podobne do tych emitwanych przez mózg. Sygnały elektryczne trafiają do mięśni i powodują ich napięcie - pracę.\n</div><div>Naukowcy zaprojektowali zestaw programów mających na celu uruchamianie tych czy innych grup mięśni w różnych sekwencjach, z różną intensywnością i częstotliwością w zależności od celów do osiągnięcia. Na przykład jeśli celem jest zrzucenie zbędnych kilogramów, modelowanie sylwetki, ujędrnienie ciała możemy skorzystać ze specjalnie zaprojektowanego programu na odchudzanie, który pozwala na intensywną pracę mięśni w celu wykonania jak największej pracy spalając nadwyżki tłuszczu odłożonego pod skórą.\n</div><div>\n</div><div><br></div><div>\n</div><div><b><br></b></div></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qP6lLax6eb",
+          "_anchor": "content1-2s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-2s"
+          "_params": {}
         },
         {
           "_styles": {
