@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
 
 
 
@@ -27,7 +28,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -1754,7 +1755,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qPiwJQ7l37 {
-  background-image: url("../../../assets/images/ogien-807x550.png");
+  background-image: url("../../../assets/images/dsc-652-2000x1330.jpg");
 }
 .cid-qPiuT7Hemc {
   padding-top: 60px;
@@ -1777,7 +1778,7 @@ body {
 .cid-qPivqmfVjb {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/miha-bodytec-536x356.jpg");
+  background-image: url("../../../assets/images/4-1053x745.png");
 }
 .cid-qPivqmfVjb h4 {
   font-weight: 500;
@@ -1819,7 +1820,7 @@ body {
   margin-bottom: 0;
 }
 .cid-qPiAeSDnoP {
-  background-image: url("../../../assets/images/rysunek-1-1024x768.png");
+  background-image: url("../../../assets/images/3-1-1053x745.png");
 }
 .cid-qPiAeSDnoP h1 {
   color: #616161;
@@ -1835,7 +1836,7 @@ body {
 .cid-qPiB8oBHav {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #55b4d4;
+  background-color: #30d24d;
 }
 .cid-qPiB8oBHav h3 {
   text-align: center;
@@ -1863,7 +1864,7 @@ body {
 .cid-qPiCvN4Y1W {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: linear-gradient(45deg, #30d24d, #55b4d4);
+  background: linear-gradient(45deg, #ffffff, #ffffff);
 }
 .cid-qPiCvN4Y1W .list-group-item {
   padding: .75rem 3.25rem;
@@ -1918,7 +1919,7 @@ body {
 .cid-qPiDd2Zghp {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/1-866x900.png");
+  background-image: url("../../../assets/images/dsc-549-2000x1330.jpg");
 }
 .cid-qPiDd2Zghp .mbr-iconfont {
   font-size: 48px;
